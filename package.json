@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RyanZhu1024/css_tutorial/issues"
   },
-  "homepage": "https://github.com/RyanZhu1024/css_tutorial#readme"
+  "homepage": "https://github.com/RyanZhu1024/css_tutorial#readme",
+  "dependencies": {
+    "typed.js": "^2.0.6"
+  }
 }
