@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -c-1"
+    "start": "live-server",
+    "compile:sass": "node-sass ./starter/sass/main.scss ./starter/css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/RyanZhu1024/css_tutorial#readme",
   "dependencies": {
     "typed.js": "^2.0.6"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
   }
 }
